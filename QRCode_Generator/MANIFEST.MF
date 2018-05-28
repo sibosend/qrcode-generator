@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+Class-Path: lib/QRCode.jar
+Main-Class: com.sibosend.qrcode.MainRun
