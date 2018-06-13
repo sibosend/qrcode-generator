@@ -2,6 +2,12 @@
 # qrcode-generator
 &emsp;&emsp;这是一个java服务端的二维码生成器，可以根据参数生成各式各样的二维码，其中包括定制内容的形状和颜色，码眼的形状和颜色，以及添加logo。
 
+## UI
+![1](https://github.com/sibosend/qrcode-generator/blob/master/screenshot/qrCode1.png)
+![2](https://github.com/sibosend/qrcode-generator/blob/master/screenshot/qrCode2.png)
+![3](https://github.com/sibosend/qrcode-generator/blob/master/screenshot/qrCode3.png)
+![4](https://github.com/sibosend/qrcode-generator/blob/master/screenshot/qrCode4.png)
+![5](https://github.com/sibosend/qrcode-generator/blob/master/screenshot/qrCode5.png)
 
 ## 安装指南
 * jdk1.8 
@@ -10,6 +16,7 @@
 ## 运行
 该项目是采用main函数带参，打成jar包后将工程的res文件夹和jar包放在同一目录下，进入到根目录使用命令行运行：
 *  java -jar xxx.jar 参数1 参数2 参数3 参数4 参数5 参数6 参数7 参数8
+
    * 参数1：二维码内容
    * 参数2：二维码图片保存地址（eg: D:/image OR D:）
    * 参数3：logo地址（有则输入logo路径，没有则输入N/n）
